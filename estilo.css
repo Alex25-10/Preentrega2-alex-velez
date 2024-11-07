@@ -9,7 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #2C2C2C;
-    color: #FFFFFF;
+    color: hsl(0, 82%, 78%);
 }
 
 /* Estilos para el header */
