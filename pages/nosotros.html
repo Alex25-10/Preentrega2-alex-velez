@@ -6,37 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-   
-    <link rel="stylesheet" href="../estilo.css">
+
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>preentrega1_alexvelez</title>
 
 </head>
 
 <body>
-    <header class="container-fluid bg-light py-3">
+    <header class="container-fluid py-3">
         <div class="row align-items-center">
-            <!-- Logo -->
+            <!-- Logo Izquierdo -->
             <div class="col-md-2 text-center">
-                <img class="logoimg img-fluid" src="../img/gym1.png" alt="gym-logo">
+                <img class="logoimg img-fluid" src="../img/gym1.png" alt="gym-logo-izquierdo">
             </div>
-            <!-- Titulo y subtitulo -->
-            <div class="col-md-8 text-center">
-                <h1>Gimnasio Olimpia</h1>
+
+            <!-- Título en el centro -->
+            <div class="col-md-8">
+                <h1 class="text-center">Gimnasio Olimpia</h1>
                 <h2>Entrenamiento Personalizado</h2>
             </div>
-        </div>
-        <!-- Barra de navegación debajo del título -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <ul class="navbar-nav mx-auto"> <!-- mx-auto para centrar -->
-                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/testimonios.html">Testimonios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/clases.html">Clases</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
+
+            <!-- Logo Derecho -->
+            <div class="col-md-2 text-center">
+                <img class="logoimg img-fluid" src="../img/gym1.png" alt="gym-logo-derecho">
             </div>
-        </nav>
+        </div>
+    </header>
+    <!-- Barra de navegación debajo del título -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <ul class="navbar-nav mx-auto"> <!-- mx-auto para centrar -->
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/testimonios.html">Testimonios</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/clases.html">Clases</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
     </header>
 
     <!-- Main Content -->
@@ -51,13 +58,16 @@
                 </div>
                 <div class="col-md-6">
                     <h3>Nuestra Historia</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat hic in, doloribus molestias
-                        quasi accusamus, voluptas, aperiam impedit dolores nesciunt omnis nam quod quibusdam voluptatem
-                        consectetur qui repellendus? Dolores dolorum quasi quaerat, iste possimus, praesentium nostrum,
-                        sit magni deleniti odio.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laboriosam? Numquam, ratione
-                        laboriosam ea incidunt alias maxime sint possimus, veritatis molestias expedita nobis, nemo
-                        natus odit omnis? Veniam atque iste explicabo labore dolores. In, eius?</p>
+                    <p>Gimnasio Olimpia se fundó hace 20 años en Tancacha, Córdoba, por un grupo apasionado del fitness
+                        con el sueño de transformar vidas a través del ejercicio. Desde su apertura en 2000, se ha
+                        convertido en un referente local, ofreciendo un ambiente acogedor para todos, sin importar su
+                        nivel de condición física.</p>
+                    <p>Con un equipo de entrenadores calificados, han desarrollado una comunidad que celebra los logros
+                        de cada miembro. A lo largo de los años, han ampliado instalaciones y servicios, incorporando
+                        modernas máquinas, diversas clases grupales y programas personalizados. Gimnasio Olimpia no solo
+                        es un lugar para hacer ejercicio, sino un hogar donde se forjan amistades y se celebra el
+                        bienestar.</p>
+                    <p class="parrafo3">¡Gracias por ser parte de estos 20 años de éxito y transformación!</p>
                 </div>
             </div>
         </section>
@@ -68,7 +78,7 @@
             <div class="row">
                 <!-- Team Member 1 -->
                 <div class="col-md-4 text-center">
-                    <img src="../img/equipo1.jpg" alt="Entrenador 1" class="img-fluid rounded-circle mb-3"
+                    <img src="../img/entrenador personal.png" alt="Entrenador 1" class="img-fluid rounded-circle mb-3"
                         style="width: 150px;">
                     <h4>Juan Pérez</h4>
                     <p>Entrenador Personal</p>
@@ -77,17 +87,18 @@
                 </div>
                 <!-- Team Member 2 -->
                 <div class="col-md-4 text-center">
-                    <img src="../img/equipo2.jpg" alt="Entrenador 2" class="img-fluid rounded-circle mb-3"
-                        style="width: 150px;">
+                    <img src="../img/elegir-nutricionista-1.webp" alt="Nutricionista"
+                        class="img-fluid rounded-circle mb-3" style="width: 150px;">
                     <h4>María García</h4>
                     <p>Nutricionista</p>
                     <p>María se especializa en nutrición deportiva, ayudando a nuestros miembros a combinar la dieta y
                         el entrenamiento para mejores resultados.</p>
                 </div>
+                
                 <!-- Team Member 3 -->
                 <div class="col-md-4 text-center">
-                    <img src="../img/equipo3.jpg" alt="Entrenador 3" class="img-fluid rounded-circle mb-3"
-                        style="width: 150px;">
+                    <img src="../img/yoga.jpg" alt="yoga" class="img-fluid rounded-circle mb-3" style="width: 150px;">
+
                     <h4>Lucas Romero</h4>
                     <p>Instructor de Yoga</p>
                     <p>Lucas ofrece clases de yoga para mejorar la flexibilidad, el equilibrio y la relajación de
@@ -100,11 +111,30 @@
     <hr>
 
     <!-- Footer -->
-    <footer class="container text-center py-3 bg-light">
-        <h4>Email: Gaston25102000@gmail.com</h4>
-        <h4>Teléfono: 3571578382</h4>
+    <footer>
+        <div class="footer-content">
+            <h3>Contacto</h3>
+            <p>Alex Velez</p>
+            <h3>Correo</h3>
+            <p>Gaston25102000@gmail.com</p>
+            <p>Teléfono: <a href="tel:3571578382">3571578382</a></p>
+            <p>Dirección: Saavedra 848, Tancacha, Córdoba, Argentina</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter" />
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" />
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" />
+                </a>
+            </div>
+        </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
