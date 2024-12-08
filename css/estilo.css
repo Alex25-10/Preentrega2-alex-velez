@@ -337,14 +337,18 @@ footer .footer-content p {
 }
 footer .social-icons {
   margin-top: 10px;
+  background-color: hwb(225 29% 51%);
 }
 footer .social-icons a {
   margin: 0 10px;
   display: inline-block;
   transition: transform 0.3s;
+  
 }
 footer .social-icons a:hover {
   transform: scale(1.2);
 }
+
+
 
 /*# sourceMappingURL=estilo.css.map */
